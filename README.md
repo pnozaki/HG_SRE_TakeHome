@@ -11,13 +11,13 @@ and then logs it in the following format:
   ```
 The logs will be located on your local machine in directory ~/dockerlogs which maps to /var/log within the container.
 The log follows the naming convention `log-yyyy-mm-dd.txt`.
-The API runs in a lightweight docker container utilizing the Alpine base image, and leverages a Makefile with a target 
-of make run to build and run the docker container on port 3000.
+The API runs in a lightweight docker container utilizing the Alpine base image, and leverages a `Makefile` with a target 
+of `make run` to build and run the docker container on port 3000.
 
 # Installation
 
 Prerequisites
-- Docker
+* Docker
 
 To install and run the API
 ````
